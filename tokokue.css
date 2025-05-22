@@ -1,0 +1,98 @@
+/* CSS untuk tampilan Whynut Cake & Bakery */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f9;
+}
+
+header {
+  background-color: #e86e6e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: url('banner.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 30px;
+  text-align: center;
+  background-color: #f0a8a8;
+}
+
+.rekomendasi, .katalog, .about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produk-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.produk {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.produk img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e86e6e;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search-box {
+  padding: 10px;
+  width: 50%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.toko-img, .maps-img {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
